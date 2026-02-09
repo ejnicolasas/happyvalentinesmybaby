@@ -42,5 +42,12 @@
       </div>
     </div>
     <script src="script.js"></script>
+    <audio id="bgMusic" src="music/dive.mp3"></audio>
+
+<script>
+  document.addEventListener("click", function () {
+    document.getElementById("bgMusic").play();
+  }, { once: true });
+</script>
   </body>
 </html>
