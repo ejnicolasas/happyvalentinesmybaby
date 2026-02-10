@@ -72,7 +72,12 @@ yesBtn.addEventListener("click", () => {
     finalText.style.display = "block";
 
     // make the FINAL cat clickable
-    catImg.addEventListener("click", () => {
-        catImg.src = "us.JPEG";
-    }, { once: true });
+    // ⬇️ THIS IS NEW (outside YES)
+let showingPhoto = false;
+
+catImg.addEventListener("click", () => {
+    if (!document.querySelector(".letter-window").classList.contains("final")) return;
+
+    catImg.src = showingPhoto ? "cat_dance.gif" : "us.JPEG";
+    showingPhoto = !showingPhoto;
 });
