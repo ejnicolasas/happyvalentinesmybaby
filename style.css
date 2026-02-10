@@ -139,11 +139,4 @@ display: inline-block;
     border-radius: 12px;
 }
 
-.letter-window.final {
-    pointer-events: none;
-}
 
-.letter-window.final .cat {
-    pointer-events: auto;
-    cursor: pointer;
-}
