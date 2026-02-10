@@ -66,11 +66,10 @@ yesBtn.addEventListener("click", () => {
       "Thank you for everything my love! please remember that you will always and forever be my valentine";
 
     catImg.src = "cat_dance.gif";
-
     document.querySelector(".letter-window").classList.add("final");
-
     buttons.style.display = "none";
     finalText.style.display = "block";
+    });
 
     // make the FINAL cat clickable
     // ⬇️ THIS IS NEW (outside YES)
