@@ -82,10 +82,10 @@ p {
 
 .cat {
     width: 200px;
-  cursor: pointer;
+  cursor: default;
   position: relative;
-  z-index: 10;
-  pointer-events: auto;
+  z-index: 1;
+  pointer-events: none;
 }
 
 .letter-window.final .cat {
