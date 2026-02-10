@@ -70,8 +70,11 @@ yesBtn.addEventListener("click", () => {
 
     finalText.style.display = "block";
 
-    const cat = document.getElementById("letter-cat");
+ const cat = document.getElementById("letter-cat");
 
-cat.addEventListener("click", () => {
-  cat.src = "us.JPEG";
-});
+if (cat) {
+  cat.addEventListener("click", () => {
+    cat.src = "us.JPEG";
+  });
+}
+
