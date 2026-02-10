@@ -156,3 +156,11 @@ display: inline-block;
 #letter-container.active {
     pointer-events: auto;
 }
+#letter-title {
+    max-width: 75%;
+    margin-bottom: 12px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    word-break: break-word;
+}
