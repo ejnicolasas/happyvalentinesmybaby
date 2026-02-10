@@ -14,6 +14,7 @@ const finalText = document.getElementById("final-text");
 envelope.addEventListener("click", () => {
     envelope.style.display = "none";
     letter.style.display = "flex";
+     letter.classList.add("active");
 
     setTimeout( () => {
         document.querySelector(".letter-window").classList.add("open");
