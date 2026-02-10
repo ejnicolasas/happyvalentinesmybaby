@@ -40,17 +40,20 @@
           <strong>Valentine Date:</strong> Meow Restaurant at 7pm. Dress fancy!
         </p>
       </div>
-    </div>
-    <script src="script.js"></script>
-    <audio id="bgMusic" src="music/dive.mp3"></audio>
+   </div>
+     <script src="script.js"></script>
 
-<audio id="bgMusic" src="dive.mp3"></audio>
+    <audio id="bgMusic" src="dive.mp3"></audio>
 
-<script>
-  document.addEventListener("click", function () {
-    document.getElementById("bgMusic").play();
-  }, { once: true });
-</script>
+    <script>
+      document.addEventListener("click", function () {
+        const music = document.getElementById("bgMusic");
+        if (music) {
+          music.play().catch(() => {});
+        }
+      }, { once: true });
+    </script>
+  
 
   </body>
 </html>
