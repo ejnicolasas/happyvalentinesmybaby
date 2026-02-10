@@ -12,6 +12,9 @@ body {
 #envelope-container {
     text-align: center;
     cursor:pointer;
+    position: relative;
+    z-index: 100;
+    
 }
 
 @keyframes pulse {
@@ -39,6 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     pointer-events: none;
+    z-index: 1; 
 }
 
 .letter-window{
