@@ -38,6 +38,7 @@ body {
     inset: 0;
     justify-content: center;
     align-items: center;
+    pointer-events: none;
 }
 
 .letter-window{
@@ -147,3 +148,6 @@ display: inline-block;
     z-index: 1;
 }
 
+#letter-container.active {
+    pointer-events: auto;
+}
