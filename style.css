@@ -138,3 +138,12 @@ display: inline-block;
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+
+.letter-window.final {
+    pointer-events: none;
+}
+
+.letter-window.final .cat {
+    pointer-events: auto;
+    cursor: pointer;
+}
