@@ -140,3 +140,10 @@ display: inline-block;
 }
 
 
+/* Enable cat only on final page */
+.letter-window.final .cat {
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 5;
+}
+
