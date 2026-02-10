@@ -73,5 +73,5 @@ yesBtn.addEventListener("click", () => {
     const cat = document.getElementById("letter-cat");
 
 cat.addEventListener("click", () => {
-  cat.src = "us.jpg";
+  cat.src = "us.JPEG";
 });
