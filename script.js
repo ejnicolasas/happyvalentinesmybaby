@@ -69,4 +69,9 @@ yesBtn.addEventListener("click", () => {
     buttons.style.display = "none";
 
     finalText.style.display = "block";
+
+    const cat = document.getElementById("letter-cat");
+
+cat.addEventListener("click", () => {
+  cat.src = "us.jpg";
 });
