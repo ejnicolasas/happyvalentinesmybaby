@@ -59,22 +59,20 @@ noBtn.addEventListener("mouseover", () => {
 
 // YES is clicked
 
+// YES is clicked
 yesBtn.addEventListener("click", () => {
-    title.textContent = "Thank you for everything my love! please remember that you will always and forever be my valentine";
+    title.textContent =
+      "Thank you for everything my love! please remember that you will always and forever be my valentine";
 
     catImg.src = "cat_dance.gif";
 
     document.querySelector(".letter-window").classList.add("final");
 
     buttons.style.display = "none";
-
     finalText.style.display = "block";
 
- const cat = document.getElementById("letter-cat");
-
-if (cat) {
-  cat.addEventListener("click", () => {
-    cat.src = "us.JPEG";
-  });
-}
-
+    // make the FINAL cat clickable
+    catImg.addEventListener("click", () => {
+        catImg.src = "us.JPEG";
+    }, { once: true });
+});
