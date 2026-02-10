@@ -156,11 +156,11 @@ display: inline-block;
 #letter-container.active {
     pointer-events: auto;
 }
-#letter-title {
-    max-width: 75%;
-    margin-bottom: 12px;
+max-width: 70%;
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    margin-top: -20px;   /* 🔑 pull text DOWN into window */
     text-align: center;
     word-break: break-word;
 }
