@@ -80,9 +80,11 @@ p {
 /* Cat */
 
 .cat {
-    width: 250px;
-    margin: 10px 0;
-    transition: width 0.4s ease;
+    width: 200px;
+  cursor: pointer;
+  position: relative;
+  z-index: 9999;
+  pointer-events: auto;
 }
 
 .letter-window.final .cat {
@@ -91,10 +93,8 @@ p {
 
 /* buttons */
 .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    position: relative;
+   position: absolute;
+  pointer-events: none;
 }
 
 .no-wrapper{
