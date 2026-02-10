@@ -10,10 +10,11 @@ body {
 
 /* Envelope Screen */
 #envelope-container {
-    text-align: center;
-    cursor:pointer;
+   text-align: center;
+    cursor: pointer;
     position: relative;
     z-index: 100;
+    pointer-events: auto; 
     
 }
 
