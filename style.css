@@ -82,10 +82,9 @@ p {
 
 .cat {
     width: 200px;
-  cursor: default;
-  position: relative;
-  z-index: 1;
-  pointer-events: none;
+    position: relative;
+    z-index: 1;        /* cat BELOW buttons */
+    pointer-events: none;
 }
 
 .letter-window.final .cat {
@@ -94,7 +93,8 @@ p {
 
 /* buttons */
 .buttons {
-   position: absolute;
+   position: relative;
+    z-index: 10; 
   
 }
 
@@ -144,6 +144,6 @@ display: inline-block;
 .letter-window.final .cat {
     pointer-events: auto;
     cursor: pointer;
-    z-index: 5;
+    z-index: 1;
 }
 
